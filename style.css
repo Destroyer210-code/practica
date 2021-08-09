@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;    
+  width: 100vw;
+  background-color: rgb(4, 143, 143);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+  width: 100%;
+}
+
+fieldset {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  height: 15em;
+  border-radius: 10px;
+}
+
+fieldset input {
+  font-size: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+}
+
+.calculates {
+  display: flex;
+  justify-content: center;
+  margin: 1em;  
+}
+
+button {
+  width: 6rem;
+  height: 4rem;
+  text-align: center;
+  cursor: pointer;
+}
+
